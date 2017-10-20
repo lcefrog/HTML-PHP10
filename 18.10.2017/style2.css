@@ -1,0 +1,14 @@
+
+
+#khung{
+	float: left;
+	width: 200px;
+	margin: 5px;
+}
+p{
+	padding-left: 35%
+}
+
+@media screen and (max-width: 812px){
+
+@media screen and (max-width: 480px){

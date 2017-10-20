@@ -1,0 +1,66 @@
+#header{
+	background-color: aqua;
+}
+#footer{
+	background-color: blue;
+	}
+/*==cột #main*/
+#main {
+	margin: auto;
+   width: 960px;
+   height: 300px;
+   border: 1px solid black;
+   padding: 1px;
+   overflow: auto;
+}
+/*==cột #content=*/
+#main-content {
+   width: 659px;
+   height: 149px;
+   background: green;
+   float:	left;
+   display: flex;
+   font-weight: bold;
+}
+#m{
+	color: white;
+	margin: auto;
+
+}
+/*==cột #slide=*/
+#slide {
+ width: 299px;
+ height:149px;
+ background: purple;
+ float: right;
+ display: flex;
+}
+		#s{
+			color: white;
+			margin: auto;
+
+		}
+	#twin1{
+	 width: 479px;
+	 height:149px;
+	 background: orange;
+	 float: left;
+	 display: flex;
+	}
+		#t1{
+			color: white;
+			margin: auto;
+
+		}
+	#twin2{
+	 width: 479px;
+	 height:149px;
+	 background: orange;
+	 float: right;
+	 display: flex;
+	}
+		#t2{
+				color: white;
+				margin: auto;
+
+			}

@@ -1,0 +1,41 @@
+.demo{
+	color: red;
+	font-weight: bold;
+}
+.content-1{
+	border: 2px solid black;
+	margin-right: 5px;
+	width: 30%;
+	float: left;
+}
+@media screen and (max-width: 960px){
+	.demo{
+		color: green;
+		font-weight: normal;
+	}
+}
+@media screen and (max-width: 768px){
+	.demo{
+		color: blue;
+		font-weight: bold;
+	}
+	.content-1{
+		border: 2px solid black;
+		margin-right: 5px;
+		margin-bottom: 5px;
+		width: 48%;
+		float: left;
+	}
+}
+@media screen and (max-width: 480px){
+	.demo{
+		color: yellow;
+	}
+	.content-1{
+		border: 2px solid black;
+		margin-right: 5px;
+		margin-bottom: 5px;
+		width: 98%;
+		float: left;
+	}
+}

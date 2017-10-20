@@ -1,0 +1,17 @@
+@font-face{
+	font-family: fontdep;
+	src: url(fontdep.ttf);
+}
+h1{
+	font-family: fontdep
+}
+body p{
+	font-weight: bold;
+	font-size: 18px;
+}
+h3 {
+	font-weight: bold;
+}
+h3.demo2{
+	border: 3px solid green;
+}

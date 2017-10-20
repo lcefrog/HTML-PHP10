@@ -1,0 +1,68 @@
+html {
+	border: 1px solid black;
+	margin: 10px;	
+	padding: 10px;
+}
+header{
+	border-bottom: 0.5px solid #ffd4aa;
+	border-bottom-width: 2px;
+	height: 110px;
+	padding: 5px 10px;
+}
+header img{
+	float: left;
+	margin-right:50px;
+}
+.sjq{
+	float: right;
+}
+div#sjq p{
+	margin-top: 0px;
+}
+h1{
+	margin-bottom: 5px;
+	text-shadow: 2px 2px 2px #000000;
+}
+main{
+	height: 350px;
+	max-width: 68%;
+	float: left;
+	margin: 15px 0px;
+	border-right: 0.5px solid #ffd4aa;
+	border-right-width: 2px;
+}
+section{
+	height: 350px;
+	max-width: 30%;
+	float: right;
+	margin: 15px 0px;
+	padding-left: 10px;
+}
+#line{
+	float: left;
+	max-width: 100%;
+	border: 1px solid black;
+	padding: 0px;
+	margin: 0px;
+}
+hr{
+	float: left;
+	width: 100%;
+	background-color: #ffd4aa;
+	height: 1px;
+	padding: 0px;
+	margin: 0px;
+}
+footer{
+	float: right;
+	margin: 10px 0px
+}
+.xanh{
+	color: green;
+}	
+.xam{
+	color: #cccccc;
+}
+.cam{
+	color: #ff7f00;
+}

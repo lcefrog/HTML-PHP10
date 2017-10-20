@@ -1,0 +1,53 @@
+
+/*==cột #main*/
+#main {
+   width: 1006px;
+   height: 1000px;
+   border: 1px solid black;
+   padding: 1px;
+   margin:	auto;
+}
+	#cot1{
+		width: 250px;
+		height: 1000px;
+		background-color: red;
+		float: left;
+	}
+			#c1{
+			color: white;
+			margin: auto;
+
+		}
+	#cot2{
+		width: 250px;
+		height: 1000px;
+		background-color: yellow;
+		float: left;
+	}
+		#c2{
+			color: white;
+			margin: auto;
+
+		}
+	#cot3{
+		width: 250px;
+		height: 1000px;
+		background-color: green;
+		float: left;
+	}
+		#c3{
+				color: white;
+				margin: auto;
+
+			}
+	#cot4{
+		width: 250px;
+		height: 1000px;
+		background-color: blue;
+		float: left;
+	}
+		#c4{
+				color: white;
+				margin: auto;
+
+			}

@@ -1,0 +1,62 @@
+header{
+	height: 100px;
+	width: 730px;
+	border: 1px solid black;
+	margin-left: 10px;
+	background-color:  #F1DACC;
+}
+#laura{
+	line-height: 10px;
+}
+#laura hr{
+	width: 150px;
+	position: absolute;
+	top: 43px;
+	right: 692px;
+	background-color: black;
+}
+.l1{
+	position: absolute;
+	right: 700px;
+	top: 15px;
+}
+.l2{
+	position: absolute;
+	right: 680px;
+	top: 45px;
+}
+#slidebar{
+	width: 250px;
+	border: 0.5px solid black;
+}
+
+#conttent {
+	position: absolute;
+	width: 500px;
+	margin-left: 260px;
+	top: 110px;
+	border: 0.5px solid black;
+}#experience{
+	text-align: center;
+}
+.i1{
+	text-align: center;
+	background-color: black;
+	color: white;
+	margin-top: 3px;
+}
+#univer{
+	width: 213px;
+	height: 63px;
+}
+#rsg{
+	width: 213px;
+	height: 43px;
+}
+#nima{
+	width: 213px;
+	height: 43px;
+	position: absolute;
+	bottom: 217px;
+	left: 242px;
+}
