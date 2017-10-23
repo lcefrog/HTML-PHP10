@@ -1,0 +1,16 @@
+h1{
+	columns: blue;
+	transition: font-size 2s ease-out 1s, color ease-in 1s;
+
+}
+ h1:hover{
+ 	cursor: pointer;
+ 	font-size: 180%;
+ 	color: red;
+ }
+
+img:hover{
+	cursor: pointer;
+	transform-origin: translateX(20px);
+	transform: matrix(0.1,0.2,0.3,0,0,0);
+}

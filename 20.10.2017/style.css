@@ -1,3 +1,10 @@
-p{
-	padding-left: 2px;
+h1{
+	font-size: 120%;
+	color:	blue;
+	transition: font-size 2s ease-out 1s, color	2s ease-in 1s;
 }
+ h1:hover{
+ 	cursor: pointer;
+ 	font-size: 180%;
+ 	color: red;
+ }
