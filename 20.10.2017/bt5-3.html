@@ -2,41 +2,45 @@
 <html lang="en">
 <head>
 	<title>bt5</title>
-	<link rel="stylesheet" type="text/css" href="style3.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<table>
-		<thead>
-			<tr>
-				<th rowspan="2">Book</th>
-				<th colspan="4">Sale</th>
-			</tr>
-			<tr>
-				<th>North</th>
-				<th>Sout</th>
-				<th>West</th>
-				<th>Total</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<th>PHP and MySQL</th>
-				<th>55.174</th>
-				<th>73.566</th>
-				<th>177.784</th>
-				<th>306524</th>
-			</tr>
-		</tbody>
-	</table>
 	<h1>FORM</h1>
 	<form action="http://google.com.vn" name="form" method="input">
-		<p>Name: <input type="text" name="email"></p>
-		<p>Username: <input type="text" name="Username"></p>
-		<p>Password: <input type="Password" name="Password"></p>
+		<p>Username: <input type="text" name="Username" placeholder="Tên" maxlength="10" autofocus="" required></p>
+		<p>Password: <input type="Password" name="Password" placeholder="Mật khẩu"></p>
+		<p>Email: <input type="email" name="email" placeholder="Email" required></p>
+		<p>Color: <input type="color" name="color"></p>
 		<P><input type="submit" name="submit" value="register"></P>
+		<p>Hidden:<input type="hidden" name="productid" value="widget"></p>
 		<P><input type="reset" name="reset" value="Reset"></P>
 		<P><input type="img" name="reset" value="Reset"></P>
+		<p><input type="submit" name="submit" value="Subscribe">
+		<form name="myform" action="order.php" method="post">
+			Crust:<br>
+			<input type="radio" name="crust" value="thin">Thin Crust<br>
+			<input type="radio" name="crust" value="Deep" checked="">Deep Dish<br>
+			<input type="radio" name="crust" value="hand">Hand Tosed<br>
+
+			Topping:<br>
+			<input type="checkbox" name="topping1" value="pepperoni">Pepperoni<br>
+			<input type="checkbox" name="topping2" value="mushrooms">Mushrooms<br>
+			<input type="checkbox" name="topping3" value="olives">Olives<br>
+		</form>
+	</form>
+	<select name="city" multiple size="2">
+		<optgroup label="Vui lòng chọn">
+			<option value="dn">Đà Nẵng</option>
+			<option value="hn">Hà Nội</option>
+			<option value="hcm">Hồ Chí Minh</option>
+		</optgroup>
+	</select>
+
+	<textarea rows="7" placeholder="Nhập nội dung"></textarea>
+
+	<form name="upload_form" action="sendenmail.php" method="post" enctype="multipart/form-data"><br>
+		Chọn file<br>
+		<input type="file" name="fileupload" accept="all, image/png">
 	</form>
 </body>
 </html>		

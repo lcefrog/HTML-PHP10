@@ -1,0 +1,9 @@
+ git clone https://github.com/lcefrog/HTML-PHP10.git^C
+
+ git pull origin master
+
+ git add .
+
+ git commit -m"update HTML-PHP10"
+
+ git push origin master
