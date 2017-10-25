@@ -103,7 +103,7 @@ ul{
 #linelon1 {
 	padding-top: 7px;
 	margin: 5px 60px;
-	height: 30px;
+	height: 40px;
 	width: 1150px;
 	border-left: 4px solid #AE1A1F;
 	background-color: #F1F1F1;
@@ -120,6 +120,7 @@ ul{
 	padding-left : 15px;
 	padding-top: 3px;
 	color: #AE1A1F;
+	font-size: 120%;
 }
 #linelon1 .dk p{
 	padding: 5px;
@@ -149,7 +150,7 @@ h3{
 	float: left;
 	padding-top: 7px;
 	margin: 10px 60px;
-	height: 30px;
+	height: 40px;
 	width: 1150px;
 	border-left: 4px solid #AE1A1F;
 	background-color: #F1F1F1;
@@ -158,6 +159,7 @@ h3{
 	padding-left : 15px;
 	padding-top: 3px;
 	color: #AE1A1F;
+	font-size: 120%;
 }
 
 /* NỘI DUN 4 TRANG ĐÀO TẠO*/
@@ -225,7 +227,8 @@ h4{
 /*SOCIAL*/
 #social{
 	position: fixed;
-		top: 40%
+		top: 40%;
+		left: 0%;
 }
 /*LỢI ÍCH VƯỢT TRỘI*/
 #loiichvuottroi{
@@ -317,12 +320,13 @@ tbody{
 }
 
 /*DANG KY*/
+
 #linelon3{
 	float: left;
 	padding-top: 7px;
 	margin: 10px 0px;
-	height: 30px;
-	width: 85%;
+	height: 40px;
+	width: 90%;
 	border-left: 4px solid #AE1A1F;
 	background-color: #F1F1F1;
 }
@@ -331,12 +335,50 @@ tbody{
 	padding-left: 15px;
     padding-top: 3px;
     color: #AE1A1F;
+    font-size: 120%;
 }
 
 #dangky{
 	margin-left: 58px;
+	position: relative;
 }
 
+input{
+	margin-bottom: 15px;
+	width: 88%;
+	height: 30px;
+    font-size: 100%;
+    padding-left: 8px;
+}
+
+.luachon{
+	margin-bottom: 15px;
+	width: 91%;
+	height: 30px;
+    font-size: 100%;
+    padding-left: 8px;
+}
 .form{
 	width: 35%;
+	float: left;
+	height: 420px;
+}
+.dkkh{
+	cursor: pointer;
+	text-decoration: none;
+	width: 25%;
+	height: 40px;
+	border: 1px solid #eee;
+}
+
+#clip{
+	width: 60%;
+	border: 1px solid #eee;
+	float: right;
+	height: 420px;
+	margin-right: 58px;
+	margin-top: 10px;
+}
+embed{
+	padding: 4px;
 }
