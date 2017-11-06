@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>btvn8</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="hinhanh">
+		<img src="h3.jpg" height="300" width="300" id="hinhTrai">
+		<input type="button" id="trai" value="Trái" onclick="left()">
+	</div>
+
+	<div id="hinhanh">
+		<img src="h.jpg" height="300" width="300" id="hinhPhai">
+		<input type="button" id="phai" value="Phải" onclick="right()">
+	</div>
+	
+	<script type="text/javascript">
+		function right() {
+		    document.getElementById('hinhPhai').src = 'h3.jpg';
+		    document.getElementById('hinhTrai').src = 'h.jpg';
+		}
+		function left() {
+		    document.getElementById('hinhPhai').src = 'h.jpg';
+		    document.getElementById('hinhTrai').src = 'h3.jpg';
+		}
+	</script>
+</html>		

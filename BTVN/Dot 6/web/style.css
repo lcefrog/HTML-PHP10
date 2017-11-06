@@ -365,10 +365,17 @@ input{
 }
 .dkkh{
 	cursor: pointer;
-	text-decoration: none;
-	width: 25%;
+	width: 40%;
 	height: 40px;
 	border: 1px solid #eee;
+	background-color: #AE1A1F;
+}		
+
+.dkkh a{
+	margin-top: 10%;
+	margin-left: 15%;
+	color: white;
+	text-decoration: none;
 }
 
 #clip{

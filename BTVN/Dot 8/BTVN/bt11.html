@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>bt11</title>
+	<link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+<body>
+	<div id="main">
+		<img src="corgi.jpg" height="110px" height="100px" id="hinhAnh">
+	</div>
+	<input type="button" value="Di chuyển sang phải" id="right" onclick="goToRight()">
+	<input type="button" value="Di chuyển sang trái" id="left" onclick="goToLeft()">
+
+	<script type="text/javascript">
+		function goToRight() {
+			var i = 1;
+			guitin();
+			function guitin () {
+			    setTimeout(function () {
+			        document.getElementById('hinhAnh').style.marginLeft = i + '1.6%';
+			        document.getElementById("right").style.display = 'none';
+			        document.getElementById("left").style.display = 'block';
+			        i++;
+			        if (i < 7) {
+			            guitin();	
+			        }
+			    	}, 70)
+			}
+		}
+
+		function goToLeft() {
+			alert('1')
+			var n = 1;
+			guitin();
+			function guitin () {
+			    setTimeout(function () {
+			    	alert('Có chạy')
+			    	document.getElementById('hinhAnh').style.marginRight = n + '1.6%';
+			        document.getElementById("right").style.display = 'block';
+			        document.getElementById("left").style.display = 'none';
+			        n++;
+			        if (n < 7) {
+			            guitin();	
+			        }
+			    	}, 70)
+			}
+		}
+
+	</script>
+</body>
+</html>		

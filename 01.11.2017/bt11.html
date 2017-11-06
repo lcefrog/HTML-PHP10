@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>bt11</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+</head>
+<body>
+	<p id="demo">Xin chao</p>
+	<p id="clickToHide">Click To Hide</p>
+	<p id="clickToShow">Click To Show</p>
+	<a>Hoặc bấm vào đây</a>
+
+	
+	<script type="text/javascript">
+		$(document).ready(function (){
+			$("#clickToHide").click(function() {
+				$("#demo").hide();
+			});
+			$("#clickToShow").click(function() {
+				$("#demo").show();
+			});
+			// Neu dung cho thẻ thì chỉ cần viết tên thẻ.
+			$("a").click(function() {
+				$("#demo").show();
+		}	);
+		});
+	</script>
+</body>	
+</html>		

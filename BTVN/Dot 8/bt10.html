@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>bt10</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="hinhanh">
+		<img src="h.png" height="300" width="300" id="hinhAnh">
+	</div>
+	<br>
+	<p>Tên nhân vật: <p id="tenNhanVat"> ... </p></p>
+	<a href="#" id="gioiThieu" >NO LINKS</a>
+	<br>
+	<br>
+	<br>
+	<input type="button" onclick="thresh()" value="Thresh">
+	<input type="button" onclick="katarina()" value="Katarina">
+	<input type="button" onclick="kalista()" value="Kalista">
+	<input type="button" onclick="jhin()" value="Jhin">
+	<script type="text/javascript">
+		function thresh() {
+			document.getElementById('tenNhanVat').innerHTML = "Thresh";
+			document.getElementById('gioiThieu').innerHTML = "Link giới thiệu";
+			document.getElementById('tenNhanVat').style.color = "red";
+		    document.getElementById('hinhAnh').src = 'h1.jpg';
+		  	document.getElementById('gioiThieu').href = 'http://leagueoflegends.wikia.com/wiki/Thresh';
+		}
+		function katarina() {
+			document.getElementById('tenNhanVat').innerHTML = "Katarina";
+			document.getElementById('gioiThieu').innerHTML = "Link giới thiệu";
+			document.getElementById('tenNhanVat').style.color = "blue";
+		   document.getElementById('hinhAnh').src = 'h2.jpg';
+		   document.getElementById('gioiThieu').href = 'http://leagueoflegends.wikia.com/wiki/Katarina';
+		}
+		function kalista() {
+			document.getElementById('tenNhanVat').innerHTML = "Kalista";
+			document.getElementById('tenNhanVat').style.color = "green";
+			document.getElementById('gioiThieu').innerHTML = "Link giới thiệu";
+		   document.getElementById('hinhAnh').src = 'h3.jpg';
+		   document.getElementById('gioiThieu').href = 'http://leagueoflegends.wikia.com/wiki/Kalista';
+		}
+		function jhin() {
+			document.getElementById('tenNhanVat').innerHTML = "Jhin";
+			document.getElementById('tenNhanVat').style.color = "aqua";
+			document.getElementById('gioiThieu').innerHTML = "Link giới thiệu";
+		   document.getElementById('hinhAnh').src = 'h4.jpg';
+		   document.getElementById('gioiThieu').href = 'http://leagueoflegends.wikia.com/wiki/Jhin';
+		}
+	</script>
+</html>		

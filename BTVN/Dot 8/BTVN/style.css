@@ -1,0 +1,30 @@
+div{
+	height: 320px;
+	width: 320px;
+	border: 1px solid black;
+	border-radius: 10px;
+	float: left;
+	margin-left: 200px;
+}
+
+img{
+	padding-left:	10px;
+	padding-top:	10px;
+}
+
+#trai{
+	font-size: 200%;
+	width: 150px;
+	height: 50px;
+	margin-top: 30px;
+	margin-left: 80px;
+}
+
+#phai{
+	font-size: 200%;
+	width: 150px;
+	height: 50px;
+	margin-top: 30px;
+	margin-left: 80px;
+}
+

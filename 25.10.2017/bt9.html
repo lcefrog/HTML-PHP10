@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>bt=8</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="common3.js"></script>
+</head>
+<body>
+	<p>Dien so thu 1: <input type="number" name="so3" id="so1"></p>
+	<br>
+	<p>Dien so thu 2: <input type="number" name="so2" id="so2"></p>
+	<input type="button" name="total" value="total" onclick="testA()">
+	<p id="result">Ket qua</p>
+
+	<script type="text/javascript">
+		function testA(){
+			var total = 0;
+			var so3 = document.getElementById('so1').value;
+			var so2 = document.getElementById('so2').value;
+			total = parseInt(so1) + parseInt(so2);
+			document.getElementById('result').innerHTML = total;
+			}
+		</script>
+</body>
+</html>		

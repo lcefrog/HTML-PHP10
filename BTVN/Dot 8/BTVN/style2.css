@@ -1,0 +1,25 @@
+img{
+	padding-top: 3px;
+	padding-left: 3px;
+	margin-right: 10%;
+}
+#main{
+	margin-top: 50px;
+	margin-left: 5%;
+	margin-right: 5%;
+	width: 30%;
+	border: 1px solid black;
+}
+
+#right{
+	float: left;
+	margin-left: 7%;
+	margin-top: 10px;
+}
+
+#left{
+	display: none;
+	float: right;
+	margin-right: 70%;
+	margin-top: 10px;
+}
